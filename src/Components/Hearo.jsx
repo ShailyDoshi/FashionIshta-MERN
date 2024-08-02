@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const Hearo = () => {
   return (
-    <section className="relative bg-hero bg-center bg-no-repeat h-screen w-full ">
+    <section className="relative bg-hero bg-center bg-no-repeat  h-screen w-full ">
       <div className="max_padd_container relative top-32 xs:top-52">
         <h1 className="h1 capitalize max-w-[37rem]">Digital Shopping </h1>
         <p className="text-gray-50 regular-16 mt-6 max-w-[37rem]">

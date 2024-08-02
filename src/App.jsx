@@ -7,6 +7,7 @@ import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import Login from "./Pages/Login";
 import Footer from "./Components/Footer";
+import Popular from "./Components/Popular";
 
 export default function App() {
   return (
@@ -17,11 +18,12 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Mens" element={<Category />} />
           <Route path="/Womens" element={<Category />} />
-          <Route path="/Product" element={<Product />} />
-          <Route path=":productId" element={<Product />} />
+          <Route path="/Product" element={<Popular />} />
+          {/* <Route path=":productId" element={<Product />} /> */}
           <Route path="/Cart" element={<Cart />} />
           <Route path="/Login" element={<Login />} />
         </Routes>
+        {/* <Popular /> */}
         <Footer />
       </BrowserRouter>
     </main>
