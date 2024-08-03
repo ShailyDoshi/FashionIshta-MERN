@@ -4,17 +4,18 @@ import Item from "./Item";
 
 const Popular = () => {
   return (
-    <section>
-      <div>
-        <h3>Popular Product</h3>
-        <hr />
-        <div>
-          {POPULAR.map((item) => (
-            <Item key={item.id} id={item.id} />
-          ))}
-        </div>
-      </div>
-    </section>
+    <>
+      <h1>Popular Product</h1>
+      <hr
+        style={{
+          backgroundColor: "lightgrey",
+          height: 3,
+        }}
+      />
+      {POPULAR.map((item) => (
+        <Item key={item.id} id={item.id} />
+      ))}
+    </>
   );
 };
 
