@@ -1,7 +1,15 @@
-
+import React from "react";
 
 const Offer = () => {
-  return <div>Offer</div>;
+  return (
+    <section className="bg-banneroffer bg-cover w-full px-4 py-24 mt-16">
+      <div className="max_padd_container">
+        <h2 className="h2">summer sale 50%</h2>
+        <h3 className="h3 capitalize ">Men's Lather Formal wear Shoes1</h3>
+        <button className="btn_dark_rounded ">Go to store</button>
+      </div>
+    </section>
+  );
 };
 
 export default Offer;
